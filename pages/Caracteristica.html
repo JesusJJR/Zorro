@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Característica</title>
+    <link rel="stylesheet" href="../CSS/style.css"/>
+</head>
+<body>
+    <header class="encabezado">
+        <a href="../index.html"> <img class="encabezado__logo" src="../imagenes/foxca.png"  alt="Imagen del logo"></a>    
+    </header>
+    <nav class="navegacion">
+        <ul class=" navegacion__flex">
+            <div><li><a class="navegacion__lista--a" href="../index.html">Principal</a></li></div>
+            <div><li><a class="navegacion__lista--a" href="Especiesdezorros.html">Especies de Zorros</a>
+                <ul class="navegacion__display">
+                    <li><a class="navegacion__lista--a" href="Especiesdezorros.html#zartico">Zorro Artico</a></li>
+                    <li><a class="navegacion__lista--a" href="Especiesdezorros.html#zfenec">Zorro Fenec</a></li>
+                    <li><a class="navegacion__lista--a" href="Especiesdezorros.html#zveloz">Zorro Veloz</a></li>
+                    <li><a class="navegacion__lista--a" href="Especiesdezorros.html#zkit">Zorro Kit</a></li>
+                    <li><a class="navegacion__lista--a" href="Especiesdezorros.html#zrojo">Zorro Rojo</a></li>
+                    <li><a class="navegacion__lista--a" href="Especiesdezorros.html#gris">Zorro Gris</a></li>
+                </ul>
+            </li></div>
+            <div><li><a class="navegacion__lista--a"href="Caracteristica.html">Características</a></li></div>
+            <div><li><a class="navegacion__lista--a"href="Ubicaciongeografica.html">Ubicación Geográfica</a></li></div>
+            <div><li><a class="navegacion__lista--a"href="Curiosidades.html">Curiosidades</a></li></div>
+        </ul> 
+    </nav>
+    <div class="principioGrid">
+        <h1 class="tituloCarac">Características Generales</h1>
+        <img class="principio__img imagenc " src="../imagenes/caracteristicas.jpg" alt="imagen">
+        <p class="textoCarac radio ">
+            Sus hábitos son por lo general nocturnos y solitarios, no se comunica mediante ladridos, sino a través de las posturas del cuerpo y movimiento de la cola, o mediante aullidos y chillidos sumamente característicos.
+            Se trata de animales poco dados a la domesticación, aunque algunas especies han sido aprovechada para proteger granjas agrícolas de sus plagas naturales.
+    </p>
+    </div>
+    <!--Seccion caracteristica y expandir los tema en otras pag-->
+    <h2 class="moverTitulo">Característica</h2>
+    <section class="carecter">
+        <article>
+            <h3 class="caracter__htres">Anatomia del Zorro</h3>
+            <ul class="caracter__square">
+                <li>Tamaño pequeño y mediano de entre 24 a 112.4 cm</li>
+                <li>Su peso esta entre 1Kg y 8Kg</li>
+                <li>Son vertebrados</li>
+                <li>Las hembras son mas pequeñas que los machos</li>
+                <li>Los dos ojos tienen pupilas ovaladas y verticales</li>
+                <li>Visión estereocópica</li>
+                <li>Excelente sentido auditivo</li>
+            </ul>
+        </article>
+        <article>  
+                <h3 class="caracter__htres">Alimentación</h3>
+                <ul class="caracter__square">
+                    <li>Son omnívoros</li>
+                    <li>Cazan animales pequeños</li>
+                    <li>Gran adaptación con respecto a la comida</li>
+                    <li>Guarda la comida excedente</li>
+                </ul>
+        </article>
+        <article>
+            <h3 class="caracter__htres">Comportamiento</h3>
+            <ul class="caracter__square">
+                <li>Solitarios y pocos sociables</li>
+                <li>Forman grupos pequeños</li>
+                <li>Tienen jerarquía de dominancia</li>
+                <li>Territoriales</li>
+                <li>Suelen ser nocturnos o crepusculares</li>
+                <li>No se les consideran migratorios</li>
+                <li>Usan unas 28 vocalizaciones distintas</li>
+            </ul>
+        </article>
+        <article>
+            <h3 class="caracter__htres">Reproducción</h3>
+            <ul class="caracter__square">
+                <li>Interactuan entre ellos cuando llega el momento de reproducirse</li>
+                <li>La madurez se alcanza entre los 5 y 10 meses de vida</li>
+                <li>La mayoria son monógamas</li>
+                <li>Son monoestros</li>
+                <li>Durante la gestación el macho es encargado de la comida</li>
+                <li>Tanto el macho como la hembra cuidan sus crías</li>
+            </ul>        
+        </article>
+    </section>
+    <hr>
+    <footer class="footersolo">
+        <form class="footersolo__formulario" action="">
+            <fieldset>
+                <legend>Para recibir mas infromación suscribete</legend>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre"/>
+                <label for="Mail">Email</label>
+                <input type="email" name="Mail" placeholder="joniromero@email.com"/>
+                <br>
+                <label for="sexo">Sexo</label>
+                <select name="sexo">
+                    <option value="H">Hombre</optio>
+                    <option value="M">Mujer</option>
+                </select>
+                <br>
+                <label for="acepta">Acepta los terminos</label>
+                <input type="checkbox" name="acepta" value="1"/>
+                <br>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Resetear"/>
+            </fieldset>
+        </form>
+        <div class="footersolo__redes">
+            <div><img src=""  alt="Imagen de instagram"></div>
+            <div><img src=""  alt="Imagen de facebook"></div>
+            <div><img src=""  alt="Imagen de twitter"></div>
+        </div>
+        <p class="footersolo__contactos">Siguenos en nuestras redes</p>
+        <p class="footersolo__contactos">Autor: Lorem, ipsum dolor. </p>
+        <p class="footersolo__contactos">Tel.: Lorem, ipsum dolor. </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zorro</title>
+        <link rel="stylesheet" href="CSS/style.css"/>
+    </head>
+
+    <body>
+        <header class="encabezado">
+            <a href="index.html"> <img class="encabezado__logo" src="imagenes/foxca.png"  alt="Imagen del logo"></a>          
+        </header> 
+        <nav class="navegacion">
+            <ul class=" navegacion__flex">
+                <div><li><a class="navegacion__lista--a " href="index.html">Principal</a></li></div>
+                <div><li><a class="navegacion__lista--a" href="pages/Especiesdezorros.html">Especies de Zorros</a>
+                    <ul class="navegacion__display">
+                        <li><a class="navegacion__lista--a " href="pages/Especiesdezorros.html#zartico">Zorro Artico</a></li>
+                        <li><a class="navegacion__lista--a" href="pages/Especiesdezorros.html#zfenec">Zorro Fenec</a></li>
+                        <li><a class="navegacion__lista--a" href="pages/Especiesdezorros.html#zveloz">Zorro Veloz</a></li>
+                        <li><a class="navegacion__lista--a" href="pages/Especiesdezorros.html#zkit">Zorro Kit</a></li>
+                        <li><a class="navegacion__lista--a" href="pages/Especiesdezorros.html#zrojo">Zorro Rojo</a></li>
+                        <li><a class="navegacion__lista--a" href="pages/Especiesdezorros.html#gris">Zorro Gris</a></li>
+                    </ul>
+                </li></div>
+                <div><li><a class="navegacion__lista--a"href="pages/Caracteristica.html">Caracteristicas</a></li></div>
+                <div><li><a class="navegacion__lista--a"href="pages/Ubicaciongeografica.html">Ubicación Geográfica</a></li></div>
+                <div><li><a class="navegacion__lista--a"href="pages/Curiosidades.html">Curiosidades</a></li></div>
+            </ul> 
+        </nav>
+        <!--introduccion-->
+        <div class="principio">
+            <h1 class="titulo principio__deco">El mundo de los Zorros</h1>
+            <img class="imgprincipal" src="imagenes/zorroindex.jpg" alt="Imagen del Zorro">
+            <p class="principio__flex"><span class="negrita negrita--des">"Tiene la ferocidad del león, la cobardía  de la liebre, la astucia del zorro…”</span>
+                <br>
+                A estos animales lo han asociado con la inteligencia y la astucia, pero también con el engaño.  Entre la familia canidae existen los llamados “zorros verdaderos” perteneciente a la tribu vulpines. Entre ellos hay zorros conocidos y otros que quizás no hemos escuchado hablar. EL Zorro Rojo <span class="negrita">(Vulpes vulpes)</span> es el más famoso del mundo ya sea por su pleaje rojo o por su densa cola y, entre los menos famosos se encuentran el Zorro orejón, el Zorro kit, entre otros, pero comparten muchas características, por ejemplo, son omnívoros. Son cazadores formidables para animales pequeños, pero a veces le toca ser presas de las águilas, pumas, osos, etc, pero su principal amenaza es el ser humano.
+                
+            </p>
+        </div>
+        <!--Contenido principal-->
+        <main class="grido">
+        <!--Seccion zorro gris-->
+            <div class="a">
+                <section>
+                    <article class="gris">
+                        <h2 class="gris__titulo tituloHdos">Zorro Gris</h2>
+                        <img class="gris__img" src="imagenes/zorrogris.jpeg" alt="Zorro gris">
+                        <p class="gris__texto principio__flex">Su aspecto no difiere de los demas zorros. Su frente es ancha, el hocico es pronunciado y angosto, sus orejas triangulares y largas.<br>Este zorro es de contextura física robusta, la coloración general puede variar entre los ejemplares. El zorro gris es considerados como el <spam class="negrita">Zorro Gris Pampeano</spam>.<br>Para mas informacion ingrese <a class="azul" href="pages/Especiesdezorros.html#gris">aqui</a>. <!-- Enlace a el Zorro gris-->
+                        </p>
+                    </article>
+                </section>
+            </div>
+            <div class="b">
+                <section class="zorroHum">
+                    <h2 class="titulogdos tituloHdos">"Lazos Zorro-Humano"</h2>
+                    <a href="pages/Curiosidades.html#enlacecuriosidades"><img class="imgSecundario" src="imagenes/zorrocuriosidades.jpg" alt="Imagen"></a> <!--Enlace directo a curiosidades-->
+                </section>
+            </div>
+            <div class="c">
+                <aside class="flexcan" >
+                    <h2 class="tituloHdos  canidaeUno">La Familia Canidae</h2>
+                    <img class=" canidaeDos" src="imagenes/canidae.jpg" alt="Imagen">
+                    <p class=" gris__texto principio__flex canidaeTres">
+                        Los canidos (canidae) son una familia de mamíferos del orden Carnívora, de régimen carnívoro.  Entre otros, abarca a los lobos, chacales, cuones, dingos, licaones y zorros. Sus principales característica en general, incluyen hocico largo y fino, y cuerpo esbelto.
+                    </p>
+                </aside>
+            </div>
+        </main>
+        <footer class="footersolo">
+            <form class="footersolo__formulario" action="">
+                <fieldset>
+                    <legend>Para recibir mas infromación suscribete</legend>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" name="Nombre"/>
+                    <label for="Mail">Email</label>
+                    <input type="email" name="Mail" placeholder="joniromero@email.com"/>
+                    <br>
+                    <label for="sexo">Sexo</label>
+                    <select name="sexo">
+                        <option value="H">Hombre</optio>
+                        <option value="M">Mujer</option>
+                    </select>
+                    <br>
+                    <label for="acepta">Acepta los terminos</label>
+                    <input type="checkbox" name="acepta" value="1"/>
+                    <br>
+                    <input type="submit" value="Enviar"/>
+                    <input type="reset" value="Resetear"/>
+                </fieldset>
+            </form>
+            <div class="footersolo__redes">
+                <div><img src=""  alt="Imagen de instagram"></div>
+                <div><img src=""  alt="Imagen de facebook"></div>
+                <div><img src=""  alt="Imagen de twitter"></div>
+            </div>
+            <p class="footersolo__contactos">Siguenos en nuestras redes</p>
+            <p class="footersolo__contactos">Autor: Lorem, ipsum dolor. </p>
+            <p class="footersolo__contactos">Tel.: Lorem, ipsum dolor. </p>
+        </footer>
+    </body>
+</html>

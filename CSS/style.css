@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html{
+    font-family:"Roboto", sans-serif;
+}
+
+/*css para titulos en general*/
+.titulo{
+    border:3px solid darkblue;
+    padding: 5px;
+}
+
+/*index*/
+
+ /*etiqueta haeder*/
+.encabezado{
+    background-image: url("../imagenes/Zorromodificado.png"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.encabezado__logo{
+    width: 100px;
+    height: 100px;
+}
+
+/*Etiqueta nav*/
+.navegacion{
+    background-color: black;
+    height: 160px;
+}
+.navegacion__flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0 0 0;
+}
+
+nav ul ul{
+    display: none;
+}
+
+nav ul li:hover ul{
+    display:inline-block;
+    position:absolute;
+    padding: 0 0 0 20px;
+}
+body{
+    background-color: teal;
+}
+.navegacion__lista--a{
+    color:white;
+    text-decoration: none;
+    font-size: 130%;;
+}
+
+/* introduccion*/
+.imgprincipal{
+    width:40%;
+    height:450px ;   
+   }
+   
+.principio{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.principio__deco{
+    background-color: rgb(175, 208, 238);
+    text-decoration: underline;
+}
+
+.principio__flex{
+    background-color: rgb(156, 200, 241);
+    flex-basis: 10%;
+    width: 50%;
+    padding: 20px;
+    line-height: 150%;
+    word-spacing: 2px;
+    text-align:justify;
+    border-radius: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+.negrita{
+    font-family: "Lora",serif;
+    font-style:italic;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+.negrita--des{
+    padding: 0 0 0 5%;
+    font-size: 150%;
+    text-shadow: 2px 2px 4px ;
+    color:darkred;
+}
+
+/*etiqueta main*/
+.imgSecundario{
+    width: 250px;
+    height: 200px;
+}
+
+.grido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: "gris zorrohumano" "gris canidae";
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    padding: 10px;
+}
+.a{
+    border:1px solid black;
+    background-color: rgb(99, 88, 88);
+    grid-area: gris;
+}
+
+.b{
+    border:1px solid black;
+    background-color: rgb(99, 88, 88);
+    grid-area: zorrohumano;
+}
+
+.c{
+    border:1px solid black;
+    background-color: rgb(99, 88, 88);
+    grid-area: canidae;
+}
+
+/*aplicando grid al contenido zorro gris*/
+
+.gris{
+    background-color:rgb(99, 88, 88);
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "titulozg imgris" "textozg textozg";
+    grid-column-gap: 5px;
+    grid-row-gap:20px;
+    justify-items:center;
+    align-items: center;
+}
+
+.gris__titulo{
+grid-area: titulozg;
+}
+
+.gris__img{
+    width: 500px;
+    height: 350px;
+    grid-area: imgris;
+    padding: 20px 20px 0 0px;
+}
+.gris__texto{
+    grid-area:textozg;
+    background-color: rgb(212, 220, 228);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+    width: 75%;
+}
+
+.azul{
+    color:blue;
+    text-decoration:underline;
+}
+
+/*aplicando flex al contenido lazos zorros-humanos*/
+.zorroHum{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    padding:  25px 0 0 0 ;
+
+}
+
+/*aplicando flex al contenido de la familia canidae*/
+.flexcan{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items:center;
+    align-items:center;
+    grid-template-areas: "tituloc imagenc" "textoc textoc ";
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    
+}
+.canidaeUno{
+    grid-area: tituloc;
+}
+.canidaeDos{
+    grid-area:imagenc;
+    width:200px;
+    height:200px;
+    margin:30px 20px 0 0 ;
+}
+.canidaeTres{
+    grid-area:textoc;
+}
+
+.tituloHdos{
+    background-color: rgb(221, 221, 231);
+    border: 1px solid black;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+/*etiqueta footer*/
+.footersolo{
+    background-image:url("../imagenes/Zorromodificado.png");
+    background-repeat:repeat;
+    color:white;
+    padding: 20px;
+    line-height: 150%;
+}
+
+.footersolo__redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding:0px 10px 0px 0px;
+    align-items: center;
+    margin:10px 0 0 0;
+}
+
+fieldset{
+padding: 10px;
+line-height: 150%;
+}
+
+legend{
+    padding: 10px;
+}
+
+
+/* Especie de Zorro*/
+.tituloFond{
+    background-color:wheat;
+    border: 5px orangered;
+    border-style:groove;
+    padding: 20px; 
+    font-style: italic;
+}
+
+.principio__img{
+    width: 800px;
+    height:500px;
+}
+
+.principio__txt{
+    background-color: papayawhip;
+    padding: 15px;
+    letter-spacing: 1px;
+    line-height: 150%;
+    word-spacing: 2px;
+    text-align:justify;
+    width: 50%;
+}
+.radio{
+     border-radius: 30px;
+}
+
+.imagenEz{
+    width: 400px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+/* Contenido de los 6 zorros*/
+.seisZorro
+{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+.seis{
+    border: 2px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5%;
+}
+
+.titulosec{
+    background-color: rgb(25, 59, 59);
+    padding: 10px;
+    border-radius: 5%;
+    color: darksalmon;
+    text-decoration: underline;
+}
+
+.colorUno{
+    background-color: rgb(228, 231, 179);
+}
+.principio__txtc{
+    background-color: rgb(37, 177, 187);
+    padding: 15px;
+    letter-spacing: 1px;
+    line-height: 150%;
+    word-spacing: 2px;
+    text-align:justify;
+    width: 50%;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/*paguina caracteristicas*/
+
+.principioGrid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"imagencc tituloc" "imagencc textoc" ;
+    grid-row-gap:1%;
+    justify-items: center;
+    align-items:center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top:2%;
+    margin-left: 1.5%;
+}
+.textoCarac{
+    grid-area:textoc;
+    background-color: rgb(128, 221, 143);
+    padding: 15px;
+    letter-spacing: 1px;
+    line-height: 150%;
+    word-spacing: 2px;
+    text-align:justify;
+    width: 100%;
+}
+
+.imagenc{
+    grid-area: imagencc;
+}
+.tituloCarac{
+    grid-area:tituloc;
+    background-color:rgb(216, 245, 179);
+    border: 5px rgb(123, 25, 161);
+    border-style:groove;
+    padding: 20px; 
+    font-style: italic;
+}
+
+/*Caracteristicas*/
+.bordecc{
+    border:2px solid black;
+}
+
+.moverTitulo{
+    background-color: rgb(128, 230, 196);
+    text-align:center;
+    margin: 2%;
+    font-size: 150%;
+}
+
+.carecter{
+    list-style:inside;
+    margin:1%;
+    padding:1%;
+    background-color:rgb(212, 220, 228) ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:baseline;
+    align-content: center; 
+    height: 300px;
+}
+
+.caracter__square{
+    list-style-type: square;
+    background-color: salmon;
+    padding: 10px;
+}
+
+.caracter__htres{
+    text-align: center;
+    font-family: "Lora",serif;
+    border-top: salmon 6px solid;
+    padding: 5px;
+}
+
+
+/*Ubicación Geografica*/
+.tituloGf{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+.tituloGeo{
+    text-align:center;
+    margin:2%;
+    padding: 1%;
+    background-color:rgb(197, 219, 70) ;
+    text-decoration: underline;
+}
+
+.gridgeo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.gridgeo__tabla{
+    background-color:rgb(124, 207, 166);
+    border:solid 2px red;
+    padding: 5px;
+    text-align:start;
+}
+
+th{
+    border:solid 2px darkred;
+    padding: 5px;
+}
+td{
+    border:solid 2px red;
+    padding: 5px;
+    list-style: inside;
+}
+.habitat{
+    background-color: rgb(170, 169, 97);
+    display:grid;
+    margin: 4%;
+    padding: 2%;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"hdos img" " text img" ;
+    grid-column-gap:10%;
+    justify-items: center;
+    align-items:center;
+}
+.habitat__h{
+    grid-area:hdos;
+    border:solid 6px rgb(107, 13, 13);
+    color: rgb(54, 54, 107);
+    background-color: rgb(233, 192, 12);
+    padding: 10px;
+}
+
+.habitat__img{
+grid-area: img;
+width: 90%;
+height: 400px;
+}
+
+.habitat__txt{
+    grid-area:text;
+    background-color:rgb(126, 228, 126);
+    padding: 2%;
+    text-align:center;
+    font-size: 110%;
+}
+
+
+/*Paguina curiosidades*/
+.flexCur{
+    margin-top: 1%;
+    margin-left:10% ;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    height: 550px;
+    width: 80%;
+    background-color: rgba(255, 127, 80, 0.76);
+}
+
+.flexCur__txt{
+    background-color:cyan;
+    padding: 1%;
+    border: 5px dashed rgba(72, 9, 131, 0.527);
+    border-radius: 10px;
+}
+
+.tituloFlexx{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    background-color: darksalmon;
+    border-radius: 25px;
+}
+
+.tituloFlexx__deco{
+    font-family: "Lore",serif;
+    font-size: 200%;
+}
+/*aplicando grid a lazos zorros-humanos*/
+.gridCur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    grid-template-areas: "e f" "g h" "i i";
+    margin:10px;
+    padding: 5px;
+    height: 65vh;
+    background-color: blanchedalmond;
+}
+.border{
+    border:2px solid black;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.e{
+    grid-area:e;
+}
+.f{
+    grid-area:f;
+}
+.g{
+    grid-area:g;
+}
+.h{
+    grid-area:h;
+}
+.i{
+    grid-area:i;
+}
+
+.text_curi{
+    text-align: center;
+    background-color: rgb(240, 208, 227);
+    line-height: 30px;
+    word-spacing: 2px;
+    color: rgb(29, 23, 124);
+    margin: 10px;
+}
