@@ -8,6 +8,7 @@ html{
 }
 
 /*Media queris*/
+
 @media(min-device-width: 320px) and (max-device-width:480px){
     body{
         display: grid;
@@ -23,16 +24,7 @@ html{
         height: max-content;
         padding-bottom: inherit;
     }
-    .tamañoMedia{
-        display: grid;
-        font-size: 19px;
-        margin-right: 150px; 
-    }
-    .tamañoMediaq{
-        display: grid;
-        margin-top: 150px;
-
-    }
+   
 }
 
 
@@ -42,7 +34,7 @@ html{
         grid-template-columns: 1fr;
         grid-template-rows: 350px 130px 750px;
     }
-    .encabezado{
+    /*.encabezado{
         background-image: url("../imagenes/Zorromodificado.png"); 
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -50,7 +42,7 @@ html{
         display: grid;
         height: max-content;
         padding-bottom: inherit;
-    }
+    }*/
     .tamañoMedia{
         display: grid;
         font-size: 19px;
@@ -62,6 +54,7 @@ html{
         width: 80%;
     }
 }
+/*
 @media(min-device-width: 721px) and (max-device-width:980px){
     body{
         display: grid;
@@ -88,6 +81,7 @@ html{
         width: 80%;
     }
 }
+*/
 /*css para titulos en general*/
 .titulo{
     border:3px solid darkblue;
@@ -103,6 +97,7 @@ html{
     background-repeat: no-repeat;
     background-size: contain;
     height: 500px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -320,8 +315,12 @@ grid-area: titulozg;
     flex-wrap: wrap;
     justify-content: flex-end;
     padding:0px 10px 0px 0px;
-    align-items: center;
-    margin:10px 0 0 0;
+    align-items: flex-end;
+    margin:10px 20px 0 0;
+}
+
+.footersolo__redes--space{
+    margin: 10px;
 }
 
 fieldset{
