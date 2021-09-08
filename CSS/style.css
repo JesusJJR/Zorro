@@ -53,6 +53,9 @@ html{
         margin-top: 150px;
         width: 80%;
     }
+    .centrarTexto{
+        margin-left:0rem;
+    }
 }
 /*
 @media(min-device-width: 721px) and (max-device-width:980px){
@@ -177,6 +180,10 @@ body{
     font-style:italic;
     font-weight:bold;
     letter-spacing: 1px;
+    text-align: center;
+}
+.centrarTexto{
+    margin-left:37rem;
 }
 
 .negrita--des{
