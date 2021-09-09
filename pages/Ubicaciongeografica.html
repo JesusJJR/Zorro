@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubicacion Geográfica</title>
     <link rel="stylesheet" href="../CSS/style.css"/>
+    <link rel="stylesheet" href="../CSS/css/bootstrap.css">
 </head>
 <body>
     <header class="encabezado container-fluid">
@@ -32,42 +33,42 @@
    <div class="tituloGf">
        <h1 class="tituloGeo">Ubicación Geográfica</h1>
     </div> 
-    <div class="gridgeo">
-    <section class="gridgeo__tabla">
-        <div class="table-responsive-sm table-responsive-lg">
-            <table class="table">
-            <caption>Ubicacion de los Zorros</caption>
-            <tr>
-                <th>Especies</th>
-                <th>Continente</th>
-                <th>Paises</th>
-                <th>Población</th>
-                <th>Clima</th>
-            </tr>
-            <tr>
-                <td>Artico</td>
-                <td>
-                    <ol class="">
-                        <li>Norte America</li>
-                        <li>Europa</li>
-                        <li>Asia</li>
-                    </ol>
-                </td>
-                <td>
-                    <ul class="">
-                        <li>Canada</li>
-                        <li>Alaska</li>
-                        <li>Islandia</li>
-                        <li>Rusia</li>
-                        <li>Noruega</li>
-                    </ul>
-                </td>
-                <td>Estable</td>
-                <td>Frio</td>
-            </tr>
-            <tr>
-                <td>Fenec</td>
-                <td>Africa</td>
+    <div class=" container-fluid">
+    <table class="table table-success table-striped ">
+        <thead>
+          <tr>
+            <th scope="col">Especies</th>
+            <th scope="col">Continentes</th>
+            <th scope="col">Paises</th>
+            <th scope="col">Población</th>
+            <th scope="col">Clima</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Zorro Artico</th>
+            <td>
+                <ol class="">
+                    <li>Norte America</li>
+                    <li>Europa</li>
+                    <li>Asia</li>
+                </ol>
+            </td>
+            <td>
+                <ul class="">
+                    <li>Canada</li>
+                    <li>Alaska</li>
+                    <li>Islandia</li>
+                    <li>Rusia</li>
+                    <li>Noruega</li>
+                </ul>
+            </td>
+            <td>Estable</td>
+            <td>Frio</td>
+          </tr>
+          <tr>
+            <th scope="row">Zorro Fenec</th>
+            <td>Africa</td>
                 <td>
                     <ul class="">
                         <li>Egipto</li>
@@ -80,67 +81,68 @@
                 <td>Estable</td>
                 <td>Arido</td>
             </tr>
-            <tr>
-                <td>Veloz</td>
-                <td>Norte America</td>
-                <td>
-                    <ul class="">
-                        <li>Canada</li>
-                        <li>Estados Unidos</li>
-                    </ul>
-                </td>
-                <td>Peligro de extinción</td>
-                <td>Calido</td>
-            </tr>
-            <tr>
-                <td>Kit</td>
-                <td>
-                    <ol class="">
-                        <li>Norte America</li>
-                        <li>Centro America</li>
-                    </ol>
-                </td>
-                <td>
-                    <ul class="">
-                        <li>Estados Unidos</li>
-                        <li>Mexico</li>
-                    </ul>
-                </td>
-                <td>Peligro de extinción</td>
-                <td>Arido y Semiarido</td>
-            </tr>
-            <tr>
-                <td>Rojo</td>
-                <td>
-                    <ol class="">
-                        <li>Europa</li>
-                        <li>Asia</li>
-                        <li>Norte de Africa</li>
-                        <li>Oceanía</li>
-                        <li>Norte America</li>
-                    </ol>
-                </td>
-                <td>
-                    <ul class="">
-                        <li>Suecia</li>
-                        <li>Japon</li>
-                        <li>Canadá</li>
-                        <li>Alemania</li>
-                        <li>Paises Bajos</li>
-                    </ul>
-                </td>
-                <td>Estable</td>
-                <td>
-                    <ul class="">
-                        <li>Frio</li>
-                        <li>Arido</li>
-                        <li>Tropical</li>
-                    <ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Gris</td>
-                <td>America</td>
+          </tr>
+          <tr>
+            <th scope="row">Zorro Veloz</th>
+            <td>Norte America</td>
+              <td>
+                  <ul class="">
+                      <li>Canada</li>
+                      <li>Estados Unidos</li>
+                  </ul>
+              </td>
+              <td>Peligro de extinción</td>
+              <td>Calido</td>
+          </tr>
+          <tr>
+            <th scope="row">Zorro Kit</th>
+            <td>
+                <ol class="">
+                    <li>Norte America</li>
+                    <li>Centro America</li>
+                </ol>
+            </td>
+            <td>
+                <ul class="">
+                    <li>Estados Unidos</li>
+                    <li>Mexico</li>
+                </ul>
+            </td>
+            <td>Peligro de extinción</td>
+            <td>Arido y Semiarido</td>
+          </tr>
+          <tr>
+            <th scope="row">Zorro Rojo</th>
+            <td>
+                <ol class="">
+                    <li>Europa</li>
+                    <li>Asia</li>
+                    <li>Norte de Africa</li>
+                    <li>Oceanía</li>
+                    <li>Norte America</li>
+                </ol>
+            </td>
+            <td>
+                <ul class="">
+                    <li>Suecia</li>
+                    <li>Japon</li>
+                    <li>Canadá</li>
+                    <li>Alemania</li>
+                    <li>Paises Bajos</li>
+                </ul>
+            </td>
+            <td>Estable</td>
+            <td>
+                <ul class="">
+                    <li>Frio</li>
+                    <li>Arido</li>
+                    <li>Tropical</li>
+                <ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Zorro Gris</th>
+            <td>America</td>
                 <td>
                     <ul class="">
                         <li>Canadá</li>
@@ -157,10 +159,9 @@
                         <li>Arido</li>
                     </ul>
                 </td>
-            </tr>
-        </table>
-    </div>
-    </section>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <!--Falta expandir el tema-->
     <section class="">
