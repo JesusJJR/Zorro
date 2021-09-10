@@ -77,6 +77,26 @@ html{
 .encabezado__logo{
     width: 100px;
     height: 100px;
+    transition: 1s;
+}
+
+.animaSinefe{
+    transition: 1s;
+}
+
+.animaLogo:hover{
+    transform: rotate(360deg);
+}
+.animaImag:hover{
+    transform: translateY(-15px);
+
+}
+.animaZorro:hover{
+    transform: scale(1.5);
+}
+
+.animaTexto:hover{
+    transform: translateY(100px);
 }
 
 .margenes{
