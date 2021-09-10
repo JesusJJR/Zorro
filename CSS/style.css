@@ -64,9 +64,9 @@ html{
 .encabezado{
     background-image: url("../imagenes/Zorromodificado.png"); 
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: contain;
-    height: 500px;
+    height: 348px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -79,36 +79,12 @@ html{
     height: 100px;
 }
 
-/*Etiqueta nav*/
-.navegacion{
-    background-color: black;
-    height: 160px;
-}
-.navegacion__flex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px 0 0 0;
-}
-
-nav ul ul{
-    display: none;
-}
-
-nav ul li:hover ul{
-    display:inline-block;
-    position:absolute;
-    padding: 0 0 0 20px;
+.margenes{
+    margin-top: 10px;
 }
 body{
     background-color: teal;
     width: 100%;
-}
-.navegacion__lista--a{
-    color:white;
-    text-decoration: none;
-    font-size: 130%;;
 }
 
 /* introduccion*/
@@ -317,8 +293,6 @@ legend{
 
 /* Especie de Zorro*/
 .tituloFond{
-    background-color:wheat;
-    border: 5px orangered;
     border-style:groove;
     padding: 20px; 
     font-style: italic;
@@ -367,7 +341,7 @@ legend{
     flex-wrap: wrap;  
 }
 .seis{
-    border: 2px solid black;
+    border: 2px solid lightblue;
     display:flex;
     flex-direction:row;
     justify-content: space-evenly;
@@ -443,8 +417,7 @@ legend{
     text-align:center;
     margin:2%;
     padding: 1%;
-    background-color:rgb(197, 219, 70) ;
-    text-decoration: underline;
+    
 }
 
 .habitat{
@@ -456,9 +429,6 @@ legend{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:center;
-    border:solid 6px rgb(107, 13, 13);
-    color: rgb(54, 54, 107);
-    background-color: rgb(233, 192, 12);
     text-align: center;
     padding: 10px;
     margin-left: 27vw;

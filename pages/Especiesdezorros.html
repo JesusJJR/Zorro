@@ -12,27 +12,49 @@
     <header class="encabezado container-fluid">
       <a href="../index.html"> <img class="encabezado__logo" src="../imagenes/foxca.png"  alt="Imagen del logo"></a>    
     </header>
-    <nav class="navegacion">
-        <ul class=" navegacion__flex">
-            <div><li><a class="navegacion__lista--a ilumin" href="../index.html">Principal</a></li></div>
-            <div><li><a class="navegacion__lista--a ilumin" href="Especiesdezorros.html">Especies de Zorros</a>
-                <ul class="navegacion__display">
-                    <li><a class="navegacion__lista--a ilumin" href="#zartico">Zorro Artico</a></li>
-                    <li><a class="navegacion__lista--a ilumin" href="#zfenec">Zorro Fenec</a></li>
-                    <li><a class="navegacion__lista--a ilumin" href="#zveloz">Zorro Veloz</a></li>
-                    <li><a class="navegacion__lista--a ilumin" href="#zkit">Zorro Kit</a></li>
-                    <li><a class="navegacion__lista--a ilumin" href="#zrojo">Zorro Rojo</a></li>
-                    <li><a class="navegacion__lista--a ilumin" href="#gris">Zorro Gris</a></li>
-                </ul>
-            </li></div>
-            <div><li><a class="navegacion__lista--a ilumin"href="Caracteristica.html">Caracteristicas</a></li></div>
-            <div><li><a class="navegacion__lista--a ilumin"href="Ubicaciongeografica.html">Ubicación Geográfica</a></li></div>
-            <div><li><a class="navegacion__lista--a ilumin"href="Curiosidades.html">Curiosidades</a></li></div>
-        </ul> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../imagenes/foxca.png" alt="" width="30" height="30"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Principal</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Especiesdezorros.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Especies de Zorros
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Especiesdezorros.html">Especies de Zorros</a></li>
+                <li><a class="dropdown-item" href="#zartico">Zorro Artico</a></li>
+                <li><a class="dropdown-item" href="#zfenec">Zorro Fenec</a></li>
+                <li><a class="dropdown-item" href="#zveloz">Zorro Veloz</a></li>
+                <li><a class="dropdown-item" href="#zkit">Zorro Kit</a></li>
+                <li><a class="dropdown-item" href="#zrojo">Zorro Rojo</a></li>
+                <li><a class="dropdown-item" href="#gris">Zorro Gris</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Caracteristica.html">Caracteristicas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Ubicaciongeografica.html">Ubicación Geográfica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Curiosidades.html">Curiosidades</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+    <div class="margenes"></div>
+
     <div class="conteiner">
         <div class=" row ">
-            <h1 class="tituloFond col-xl-3 col-md-4 col-sm-4">Especies de Zorros</h1>
+            <h1 class=" tituloFond principio__deco col-xl-3 col-md-4 col-sm-4">Especies de Zorros</h1>
             <img class="principio__img img-fluid col-xl-6 col-md-5 col-sm-12" src="../imagenes/especieszorroprinc.jpg" alt="Zorro en general"/>
             <p class="principio__txt  textoCarac radio col-xl-5 col-md-5 col-sm-12">
                 Entre los mamíferos, los canidos son fácilmente reconocidos por las personas debido a su parecido a los perros domésticos.
