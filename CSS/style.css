@@ -487,39 +487,40 @@ legend{
 }
 
 .habitat{
-    background-color: rgb(170, 169, 97);
-    display:grid;
-    margin: 4%;
-    padding: 2%;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:"hdos img" " text img" ;
-    grid-column-gap:10%;
-    justify-items: center;
-    align-items:center;
+
+    padding: 20px;
 }
 .habitat__h{
-    grid-area:hdos;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
     border:solid 6px rgb(107, 13, 13);
     color: rgb(54, 54, 107);
     background-color: rgb(233, 192, 12);
+    text-align: center;
     padding: 10px;
+    margin-left: 27vw;
 }
 
 .habitat__img{
-grid-area: img;
-width: 90%;
-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 24vw;
 }
-
 .habitat__txt{
-    grid-area:text;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     background-color:rgb(126, 228, 126);
     padding: 2%;
     text-align:center;
     font-size: 110%;
+    margin-left: 16vw;
 }
-
 
 /*Paguina curiosidades*/
 .flexCur{
