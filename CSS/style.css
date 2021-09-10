@@ -534,7 +534,7 @@ legend{
     align-items:center;
     height: 550px;
     width: 80%;
-    background-color: rgba(46, 18, 201, 0.76);
+   
 }
 
 .flexCur__txt{
@@ -561,50 +561,23 @@ legend{
     font-size: 200%;
 }
 /*aplicando grid a lazos zorros-humanos*/
-.gridCur{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap:10px;
-    grid-row-gap:10px;
-    grid-template-areas: "e f" "g h" "i i";
-    margin:10px;
-    padding: 5px;
-    height: 65vh;
-    background-color: rgba(252, 252, 252, 0.781);
-}
-.border{
-    border:2px solid black;
-    border-radius:20px;
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-.e{
-    grid-area:e;
-}
-.f{
-    grid-area:f;
-}
-.g{
-    grid-area:g;
-}
-.h{
-    grid-area:h;
-}
-.i{
-    grid-area:i;
+.blackColor:hover{
+    background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
 }
 
+.colorFondo{
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    
+}
 .text_curi{
     text-align: center;
     background-color: rgb(112, 139, 214);
     line-height: 30px;
     word-spacing: 2px;
     color: rgb(48, 44, 12);
-    margin: 10px;
 }
  /* ccs con bootstrap*/
 

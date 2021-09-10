@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curiosidades</title>
     <link rel="stylesheet" href="../CSS/style.css"/>
+    <link rel="stylesheet" href="../CSS/css/bootstrap.css">
 </head>
 <body>
     <header class="encabezado container-fluid">
@@ -39,31 +40,68 @@
     <!--Seccion curiosidades sobre el zorro-->
     <section class="gridCur radio">
         <!--Buscar imagenes relacionada con cada item y expandir cada tema-->
-        <article class="border e">
-            <h3 class="flexCur__txt">Cultura</h3>
-            <p class="text_curi">Japoneses, chinos, griegos, entre otros grupos, tienen una percepción hacia los zorros que data de varias generaciones atrás. En la actualidad, estos canidos están ocupando un lugar importante en nuestra cultura.
-           </p>
-        </article>
-        <article class="border f">
-            <h3 class="flexCur__txt">Humanos y Zorros</h3>
-            <p class="text_curi">Los zorros son animales sumamente populares, pero no siempre son gratamente aceptados. Aspectos positivos y negativos de la relación e interacción entre zorros y seres humanos.
-           </p>
-        </article>
-        <article class="border g">
-            <h3 class="flexCur__txt">Zorros en Cautiverio</h3>
-            <p class="text_curi"> Gran número de zorro no viven  en libertad. Granjas, territorios humanos o zoológicos se han formado parte de su hábitat por diversos motivos. 
-           </p>
-        </article>
-        <article class="border h">
-            <h3 class="flexCur__txt">Caza de Zorros</h3>
-            <p class="text_curi">La caza de zorro se considera deportes en algunas partes del mundo, mientras que en otras regiones es un acto de crueldad que debe ser erradicado por completo. Vestir piel de zorro es otro tema polémico.
-           </p>
-        </article>
-        <article class="border i">
-            <h3 class="flexCur__txt">Conservación de los Zorros</h3>
-            <p class="text_curi">Todas las especies experimentan 3 intermitentes peligros: perdida de hábitat, caza y conflicto <br>con el ser humano. De las 20.022 especies en peligro de extinción que existen actualmente, un pequeño pertenece a los zorros.
-           </p>
-        </article>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button collapsed text_curi blackColor" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Cultura
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body colorFondo">
+                    Japoneses, chinos, griegos, entre otros grupos, tienen una percepción hacia los zorros que data de varias generaciones atrás. En la actualidad, estos canidos están ocupando un lugar importante en nuestra cultura.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed text_curi blackColor" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Humanos y Zorros
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body colorFondo">
+                    Los zorros son animales sumamente populares, pero no siempre son gratamente aceptados. Aspectos positivos y negativos de la relación e interacción entre zorros y seres humanos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed blackColor text_curi" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Zorros en Cautiverio
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body colorFondo">
+                    Gran número de zorro no viven  en libertad. Granjas, territorios humanos o zoológicos se han formado parte de su hábitat por diversos motivos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed blackColor text_curi" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Caza de Zorros
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body colorFondo">
+                    La caza de zorro se considera deportes en algunas partes del mundo, mientras que en otras regiones es un acto de crueldad que debe ser erradicado por completo. Vestir piel de zorro es otro tema polémico.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                  <button class="accordion-button collapsed blackColor text_curi" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                    Conservación de los Zorros
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                  <div class="accordion-body colorFondo">
+                    Todas las especies experimentan 3 intermitentes peligros: perdida de hábitat, caza y conflicto <br>con el ser humano. De las 20.022 especies en peligro de extinción que existen actualmente, un pequeño pertenece a los zorros.
+                  </div>
+                </div>
+              </div>
+          </div>
     </section>
     <footer class="footersolo">
         <form class="footersolo__formulario" action="">
@@ -96,5 +134,7 @@
         <p class="footersolo__contactos">Autor: Lorem, ipsum dolor. </p>
         <p class="footersolo__contactos">Tel.: Lorem, ipsum dolor. </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
