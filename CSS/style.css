@@ -98,6 +98,9 @@ html{
 .animaTexto:hover{
     transform: translateY(100px);
 }
+.animaEfers:hover{
+    transform: scale(1.5) rotateY(360deg);
+}
 
 .margenes{
     margin-top: 10px;
